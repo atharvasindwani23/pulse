@@ -43,7 +43,7 @@ A small illustration of a big design choice: **let code handle continuous contro
 
 [![Animated comparison of GPT-6 Astra and Jev playing Flappy Bird. Click to watch the MP4.](docs/media/flappy-bird-preview.gif)](https://github.com/atharvasindwani23/pulse/raw/refs/heads/main/docs/media/flappy-bird-astra-vs-jev.mp4)
 
-**[▶ Watch GPT‑6 Astra vs Jev](https://github.com/atharvasindwani23/pulse/raw/refs/heads/main/docs/media/flappy-bird-astra-vs-jev.mp4)** · 10 seconds · silent · 2× speed
+**[▶ Full video: GPT‑6 Astra vs Jev](https://github.com/atharvasindwani23/pulse/raw/refs/heads/main/docs/media/flappy-bird-astra-vs-jev.mp4)** · 10 seconds · silent · 2× speed
 
 In this demo, Astra interacts through browser controls. The Jev setup reads exact game state, simulates possible flight plans, asks Jev to choose one, and lets local code time the flaps.
 
@@ -61,7 +61,7 @@ These are independent recordings with different control setups, not a controlled
 **Realtime listens. Decisions scores. The browser keeps everything moving.**
 
 ```mermaid
-flowchart LR
+flowchart TB
   MIC["Microphone"] --> RT["OpenAI Realtime<br/>Words + voice observations"]
   MIC --> LOCAL["Local microphone meter"]
   CAM["Optional camera"] --> FACE["Local MediaPipe worker<br/>Movement coefficients only"]
