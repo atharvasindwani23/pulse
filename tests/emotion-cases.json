@@ -1,0 +1,131 @@
+[
+  {
+    "name": "Smiling, emphatic explanation",
+    "observations": "Firm volume, low pitch, quick pace and emphatic consonants while explaining. No audible strain; conversational intonation.",
+    "smile": 0.85,
+    "browFurrow": 0.55,
+    "maxAngry": 30
+  },
+  {
+    "name": "Concentrating with furrowed brow",
+    "observations": "Steady pitch and volume, brief pauses while explaining; ordinary conversational delivery.",
+    "smile": 0.05,
+    "browFurrow": 0.9,
+    "maxAngry": 30
+  },
+  {
+    "name": "Loud playful laugh",
+    "observations": "Loud animated speech with a warm chuckle, playful pitch rises and laughter.",
+    "smile": 0.9,
+    "browFurrow": 0.2,
+    "maxAngry": 30,
+    "minHappy": 50
+  },
+  {
+    "name": "Speech cut at recording boundary",
+    "observations": "Brief low-pitched phrase; recording cuts off the last word. Emotional quality unclear.",
+    "smile": null,
+    "maxAngry": 30
+  },
+  {
+    "name": "Direct energetic speech without camera",
+    "observations": "Fast, loud delivery, strongly emphasized words and short phrases. No distinctive emotional quality is audible.",
+    "smile": null,
+    "maxAngry": 30
+  },
+  {
+    "name": "Calm negative words",
+    "observations": "Calm measured pace, steady volume and relaxed vocal quality.",
+    "words": "This is broken and I do not like the result.",
+    "includeWords": true,
+    "smile": 0.65,
+    "maxAngry": 30
+  },
+  {
+    "name": "Clear hostile-sounding delivery",
+    "observations": "Repeated unmistakably hostile-sounding snaps, harsh strained timbre and heated, growling intonation throughout the phrase.",
+    "smile": 0.05,
+    "browFurrow": 0.7,
+    "minAngry": 60
+  },
+  {
+    "name": "A smile cannot veto clear vocal hostility",
+    "observations": "Repeated unmistakably hostile-sounding snaps with harsh strained timbre and heated, growling intonation. No laughter or playful quality.",
+    "smile": 0.8,
+    "browFurrow": 0.5,
+    "minAngry": 60
+  },
+  {
+    "name": "Quiet voice, explicit happiness, no smile",
+    "observations": "Even pace and volume, neutral conversational pitch. No strong vocal expression.",
+    "words": "I am so happy! This is wonderful news and I am absolutely thrilled.",
+    "includeWords": true,
+    "smile": 0.01,
+    "browFurrow": 0.6,
+    "minHappy": 60,
+    "maxSad": 30,
+    "maxAngry": 30
+  },
+  {
+    "name": "Quiet voice, explicit sadness, visible smile",
+    "observations": "Even pace and volume, neutral conversational pitch. No strong vocal expression.",
+    "words": "I feel deeply sad. I miss her so much and this loss hurts terribly.",
+    "includeWords": true,
+    "smile": 0.85,
+    "browFurrow": 0,
+    "minSad": 60,
+    "maxHappy": 30,
+    "maxAngry": 30
+  },
+  {
+    "name": "Personal disappointment without the word sad",
+    "observations": "Even pace and volume, neutral conversational pitch. No strong vocal expression.",
+    "words": "I worked so hard for this. Losing it is heartbreaking and I feel completely let down.",
+    "includeWords": true,
+    "smile": null,
+    "minSad": 50,
+    "maxAngry": 35
+  },
+  {
+    "name": "Negation and current happiness",
+    "observations": "Even pace and volume, neutral conversational pitch. No strong vocal expression.",
+    "words": "I am not sad anymore. I am really happy that we finally made it.",
+    "includeWords": true,
+    "smile": null,
+    "minHappy": 60,
+    "maxSad": 30
+  },
+  {
+    "name": "Neutral negative facts are not personal sadness",
+    "observations": "Even pace and volume, neutral conversational pitch. No strong vocal expression.",
+    "words": "The error count increased from five to seven. We will review the log after lunch.",
+    "includeWords": true,
+    "smile": null,
+    "maxSad": 30,
+    "maxAngry": 30
+  },
+  {
+    "name": "Quoted sadness is not the speaker's current expression",
+    "observations": "Even pace and volume, neutral conversational pitch. No strong vocal expression.",
+    "words": "The character says I am sad. I am just reading that sentence from the script.",
+    "includeWords": true,
+    "smile": null,
+    "maxSad": 30
+  },
+  {
+    "name": "Words disabled preserves voice-only behavior",
+    "observations": "Even pace and volume, neutral conversational pitch. No strong vocal expression.",
+    "words": "I am so happy! This is wonderful news and I am absolutely thrilled.",
+    "includeWords": false,
+    "smile": null,
+    "maxHappy": 30
+  },
+  {
+    "name": "Calm explicit anger is still expressed anger",
+    "observations": "Even pace and volume, neutral conversational pitch. No strong vocal expression.",
+    "words": "I am furious about this. I am really angry that they did that.",
+    "includeWords": true,
+    "smile": null,
+    "minAngry": 60
+  }
+]
